@@ -1,4 +1,5 @@
 # Principal
-#import funciones
+import funciones
 
-#funciones.jugadores()
+funciones.jugadores()
+

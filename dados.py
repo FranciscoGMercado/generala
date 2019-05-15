@@ -12,11 +12,11 @@ def dados_L(n):
     return  lista
 n = 5
 d = dados_L(n)
-#print(d)
+print(d)
 
 def dados_D():
     dados = {'dado_1': 1, 'dado_2': 2, 'dado_3': 3, 'dado_4': 4, 'dado_5': 5}
     n = 5
     print(dados)
-dicc = dados_D()
-print(dicc)
+    dicc = dados_D()
+    print(dicc)
