@@ -7,6 +7,6 @@ def jugadores():
     for i in range(0,n):
         jugador = str(input('ingrese el nombre del jugador: '))
         j.append(jugador)
-    for x in range(j):
+    for x in j:
         print(x)
 
