@@ -1,0 +1,7 @@
+j = []  #J por jugadores.
+n = int(input('Ingrese el numero de jugadores para esta partida: '))
+for i in range(0,n):
+    jugador = str(input('ingrese el nombre del jugador: '))
+    j.append(jugador)
+for s in j:
+    print(s)
