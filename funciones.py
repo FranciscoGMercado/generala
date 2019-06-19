@@ -9,4 +9,4 @@ def jugadores():
         j.append(jugador)
     for x in j:
         print(x)
-
+jugadores()
