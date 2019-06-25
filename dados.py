@@ -20,21 +20,23 @@ def dados_D():
     print(dados)
     dicc = dados_D()
     print(dicc)
-    # Este codigo anda lo mas bien para generar la primera tirada.
-     Lista_dados = []
-        dado_1 = random.randrange(1, 7)
-        Lista_dados.append(dado_1)
+# Este codigo anda lo mas bien para generar la primera tirada.
+Lista_dados = []
+    dado_1 = random.randrange(1, 7)
+    Lista_dados.append(dado_1)
 
-        dado_2 = random.randrange(1, 7)
-        Lista_dados.append(dado_2)
+    dado_2 = random.randrange(1, 7)
+    Lista_dados.append(dado_2)
 
-        dado_3 = random.randrange(1, 7)
-        Lista_dados.append(dado_3)
+    dado_3 = random.randrange(1, 7)
+    Lista_dados.append(dado_3)
 
-        dado_4 = random.randrange(1, 7)
-        Lista_dados.append(dado_4)
+    dado_4 = random.randrange(1, 7)
+    Lista_dados.append(dado_4)
 
-        dado_5 = random.randrange(1, 7)
-        Lista_dados.append(dado_5)
+    dado_5 = random.randrange(1, 7)   
+    a_dados.append(dado_5)
 
-        Lista_dados.sort()
+    Lista_dados.sort()
+    print(Lista_dados)
+    
