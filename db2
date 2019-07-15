@@ -1,8 +1,8 @@
 import sqlite3
-import time
+from datetime import  datetime, date, time, timedelta
 
 def juego():
-    t = int(time.time())
+    t = datetime.now()
     based = sqlite3.connect('generala.db')
     c = based.cursor()
     c.execute('insert into juego(momento) values(?)', [t])
@@ -10,7 +10,7 @@ def juego():
     n = int(input('Ingrese el numero de jugadores para esta partida: '))
     for i in range(0, n):
         jugador = str(input('ingrese el nombre del jugador: '))
-        c.execute('insert into jugadores(nombre_jugadores) values(?)', [jugador])
+        c.execute('insert into jugadores(nombre_jugador) values(?)', [jugador])
         j.append(jugador)
     based.commit()
     based.close()
